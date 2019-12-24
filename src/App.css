@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.card .card-body .card-text {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #747373;
+}
+
+.modal-backdrop.show {
+  z-index: 0!important;
+}
+
+.card-body {
+  min-height: auto;
+}
+
+@media (max-width: 1666px) {
+  
+  .card-body {
+    min-height: auto ! important;
+  }
+}
+@media (max-width:407px){
+  .container-mobile{
+    padding-left: 0px !important;
+   
+  }
+}
+@media (max-width:387px){
+  .category-mobile{
+    margin-right: 0px !important;
+   
+  }
+}
+@media (max-width:766px) and (min-width:667px){
+  .ColumnName{
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+  }
+}
+@media (max-width: 1267px) {
+  .col-xl-12 {
+    padding-right: 0px !important;
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+}
+@media (max-width: 440px) {
+  .p-5 {
+    padding: 3rem !important;
+  }
+}
+
+@media (max-width: 1616px) {
+  .col-lg-3 {
+     position: relative;
+     width:100%;
+  }
+}
+@media (max-width: 396px) {
+  .mobile-nav {
+     padding: 0px !important;
+  }
+}
+@media (max-width:343px) {
+  .btn-default{
+     word-wrap: normal !important;
+  }
+}
+@media (max-width:1600px) and (min-width:1200px) {
+  .row .my-4 {
+     flex-direction: column !important;
+  }
+  .col-lg-12 .col-sm-12{
+    position: relative;
+    width: 100%;
+  }
+  .col-lg-3{
+    padding-right: 0px !important;
+  }
+  .MarginLeft{
+    margin-left: 60px !important;
+  }
+  .pl-5{
+    padding-left: 0px !important;
+  }
+}​
+
+
+.rc-pagination-prev {
+  border: 1px solid white;
+}
+
+.rc-pagination-prev a {
+  color: white;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: rgb(128,0,0) !important;
+}
+.rc-pagination-item-active {
+  background-color:#fff;
+  border-color: #dc1c1c;
+}
+.btn{
+  background-color: rgb(128,0,0);
+  box-shadow: none !important;
+}
+#upload {
+  cursor: pointer;
+  color: white;
+  /* Style as you please, it will become the visible UI component. */
+}
+
+#upload-photo {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  border: '1px solid red'
+}
+
+.col-image {
+  border-radius: 1px;
+  border: '1px solid red';
+}
+
+.btn.disabled, .btn:disabled {
+  opacity: 1;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
