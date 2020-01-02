@@ -1,4 +1,4 @@
-export const Base_URL = "http://192.168.100.106:3333/api/v1"
+export const Base_URL = "http://192.168.100.106:4444/api/v1"
 
 
 export const AUTH_CONTROLLER_REGISTER = Base_URL + "/auth/register"
@@ -19,4 +19,4 @@ export const USER_CONTROLLER_GET_FOOD_Active= Base_URL +'/user/getFoodbyStatus'
 export const USER_CONTROLLER_GET_MENU_Active=Base_URL + '/user/getMenubyStatus'
 
 
-export const ImageAPI ="http://192.168.100.106:3333/uploads"
+export const ImageAPI ="http://192.168.100.106:4444/uploads"
